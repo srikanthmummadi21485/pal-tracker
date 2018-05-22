@@ -4,4 +4,5 @@ applications:
   path: build/libs/pal-tracker.jar
   routes:
   - route: sukanta-pal-tracker.apps.evans.pal.pivotal.io
-  
+  services:
+  - tracker-database
